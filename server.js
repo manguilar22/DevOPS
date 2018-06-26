@@ -1,27 +1,21 @@
 const express=require("express");
 const path=require("path");
-const port=process.env.PORT || 5000;
 
 let app=express();
 
-app.use(express.static(path.join(__dirname,"public")));
+app.use(express.static(path.join(__dirname + "/public")));
 
-app.get("/",(req,res) => {
-    res.sendFile(path.join(__dirname,"/public/index.html"));
-});
+// Send File Template
+let html=(file) => path.join(__dirname,`public/topics/${file}.html`);
 
 // Routes
-const BuildAutomation=require("./routes/BuildAutomation");
-const ContinousIntegration=require("./routes/ContinousIntegration");
-const ContinousDeliveryDeployment=require("./routes/ContinousDeliveryDeployment");
-const InfastructureCode=require("./routes/InfastructureCode");
+app.get("/",(req,res) => res.sendFile(`${html("index")}`));
+app.get("/BuildAutomation",(req,res) => res.sendFile(`${html("BuildAutomation")}`));
+app.get("/ContinousIntegration",(req,res) => res.sendFile(`${html("ContinousIntegration")}`));
+app.get("/ContinousDeliveryDeployment",(req,res) => res.sendFile(`${html("ContinousIntegration")}`));
+app.get("/InfastructureCode",(req,res) => res.sendFile(`${html("InfastructureCode")}`));
 
-app.use("/BuildAutomation",BuildAutomation);
-app.use("/ContinousIntegration",ContinousIntegration);
-app.use("/ContinousDeliveryDeployment",ContinousDeliveryDeployment);
-app.use("/InfastructureCode",InfastructureCode);
 
 // Ports and Config
-app.listen(port,() => {
-    console.log(`\nDir_name:\t${__dirname}\nListen:\t${port}`);
-});
+const port=process.env.PORT || 5000;
+app.listen(port,() => console.log(`Port:\t${port}`));
