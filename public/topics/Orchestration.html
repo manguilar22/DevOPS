@@ -5,15 +5,20 @@
     <title>Orchestration</title>
     <!-- CSS - Stylesheet -->
     <link rel="stylesheet" type="text/css" href="../style.css"/>
+
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+
 </head>
 <body>
 <h1>Containerization</h1>
 <hr/>
 <img src="../img/docker.svg" height="200" width="250"/>
 <h3>Docker</h3>
+<hr/>
 <ol style="list-style-type: square">
     <li><a href="https://www.docker.com/">Docker Containers</a></li>
-    <li><p><a href="https://hub.docker.com/u/manguilar22/">Personal Docker Repository</a>. <i>manguilar22</i></p></li>
+    <li><p><a href="https://hub.docker.com/u/manguilar22/">Docker Repository</a>. <i>manguilar22</i></p></li>
 </ol>
 <blockquote>
     <pre>
@@ -30,18 +35,50 @@ already makes things simpler. Cloud infrastructures eliminate the need for organ
 and to have a dedicated team for maintaining it.
     </pre>
 </blockquote>
-
+<blockquote>
+    <pre>
+<u>
+"<b>Best Practices for Writing Dockerfiles</b>." <i>Docker Documentation</i>. June 28, 2018. <b>Accessed July 04, 2018</b>.
+<a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/">https://docs.docker.com/develop/develop-images/dockerfile_best-practices/</a>.
+</u>
+        The image defined by your Dockerfile should generate containers that are as <b>ephemeral as possible</b>.
+        By “<b>ephemeral</b>,” we mean that the container can be stopped and destroyed, then rebuilt and replaced
+        with an absolute <u>minimum set up and configuration</u>.
+    </pre>
+</blockquote>
 
 <img src="../img/Linux_Containers_logo.png" height="200" width="250"/>
 <h3>LXC/LXD</h3>
+<hr/>
 <ol style="list-style-type: square">
     <li><a href="https://linuxcontainers.org/">Linux Containers</a></li>
     <li><a href="https://us.images.linuxcontainers.org/">Repository for Available Images</a></li>
 </ol>
 
-<img src="" width="250" height="200" alt="Docker_Swarm_Logo"/>
+<img src="../img/docker_swarm.png" width="250" height="200" alt="Docker_Swarm_Logo"/>
 <h3>Docker Swarm</h3>
+<hr/>
+<blockquote>
+    <pre>
+        Using <b>YAML</b> syntax for the management of multiple containers !
+    </pre>
+</blockquote>
 
+<blockquote>
+    <pre><u>
+SCHENKER, GABRIEL. <b>LEARN DOCKER - FUNDAMENTALS OF DOCKER 18.X</b>: Enhance Your Software Deployment Workflow Using...
+Containers. S.l.: <b>PACKT PUBLISHING LIMITED</b>, 2018.</u>
 
+        Docker Compose is a tool provided by Docker that is mainly used where one
+needs to run and orchestrate containers running on a single Docker host. This
+includes but is not limited to development, <b>continuous integration</b> (CI),
+automated testing, and manual QA.
+    </pre>
+</blockquote>
+<ol style="list-style-type: square">
+    <li>Docker Compose YAML file for a simple multi-service application</li>
+    <li>Build, push, deploy, and tear down a simple multi-service application using Docker Compose</li>
+    <li>Use Docker Compose to scale an application service up and down.</li>
+</ol>
 </body>
 </html>
