@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71b4c78b-5549-429f-8fd9-bcc9452091e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DevOPS.iml" afterPath="$PROJECT_DIR$/.idea/DevOPS.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/BuildAutomation.html" afterPath="$PROJECT_DIR$/public/topics/BuildAutomation.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/ContinousDeliveryDeployment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/topics/ContinousIntegration.html" afterPath="$PROJECT_DIR$/public/topics/ContinousIntegration.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/DevopCulture.html" afterPath="$PROJECT_DIR$/public/topics/DevopCulture.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/Devops.html" afterPath="$PROJECT_DIR$/public/topics/Devops.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/InfastructureCode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/topics/Orchestration.html" afterPath="$PROJECT_DIR$/public/topics/Orchestration.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/ServerlessIntroduction.html" afterPath="$PROJECT_DIR$/public/topics/ServerlessIntroduction.html" />
-      <change beforePath="$PROJECT_DIR$/public/topics/ServerlessOfferings.html" afterPath="$PROJECT_DIR$/public/topics/ServerlessOfferings.html" />
-      <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,7 +41,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="324">
-                <caret line="18" column="148" lean-forward="true" selection-start-line="18" selection-start-column="148" selection-end-line="18" selection-end-column="148" />
+                <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -403,7 +390,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="324">
-            <caret line="18" column="148" lean-forward="true" selection-start-line="18" selection-start-column="148" selection-end-line="18" selection-end-column="148" />
+            <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />
