@@ -12,7 +12,6 @@ let html=(file) => path.join(__dirname,`public/topics/${file}.html`);
 app.get("/",(req,res) => res.sendFile(`${html("index")}`));
 app.get("/Devops",(req,res) => res.sendFile(`${html("Devops")}`));
 app.get("/DevopCulture", (req,res) => res.sendFile(`${html("DevopCulture")}`));
-app.get("/BuildAutomation",(req,res) => res.sendFile(`${html("BuildAutomation")}`));
 app.get("/ContinousIntegration",(req,res) => res.sendFile(`${html("ContinousIntegration")}`));
 app.get("/Orchestration",(req,res) => res.sendFile(`${html("Orchestration")}`));
 app.get("/ServerlessIntroduction",(req,res) => res.sendFile(`${html("ServerlessIntroduction")}`));
