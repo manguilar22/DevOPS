@@ -14,6 +14,7 @@ app.get("/Devops",(req,res) => res.sendFile(`${html("Devops")}`));
 app.get("/DevopCulture", (req,res) => res.sendFile(`${html("DevopCulture")}`));
 app.get("/ContinousIntegration",(req,res) => res.sendFile(`${html("ContinousIntegration")}`));
 app.get("/Orchestration",(req,res) => res.sendFile(`${html("Orchestration")}`));
+app.get("/Container",(req,res) => res.sendFile(`${html("Container")}`));
 app.get("/ServerlessIntroduction",(req,res) => res.sendFile(`${html("ServerlessIntroduction")}`));
 app.get("/ServerlessOfferings",(req,res) => res.sendFile(`${html("ServerlessOfferings")}`));
 
